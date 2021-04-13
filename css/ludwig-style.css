@@ -1,4 +1,30 @@
+@import url('https://fonts.google.com/specimen/Old+Standard+TT:400');
 html{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: wheat;
+    font-family:"Old Standard TT";
+    background-color: beige;
+}
+body{
+ background-image: url("https://wallpaperaccess.com/full/1558251.jpg");
+}
+.topright {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    background-color: rgba(245,245,220,.8) ;
+
+}
+.pic {
+    border-radius: 100% 40%;
+    height:15rem;
+}
+.gif {
+    height: 10rem;
+    width: auto;
+}
+.center {
+    margin-right: auto;
+    margin-left: auto;
 }
