@@ -16,6 +16,14 @@ body {
     align-items: center;
 }
 
+body a {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 30px;
+}
+
 h1 {
     color:black;
     font-size: 60px;
@@ -59,7 +67,7 @@ table, th, td{
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
     text-align: center;
     table-layout: fixed;
     background-color: white;
